@@ -4,6 +4,9 @@ import Home from '../Layout/Home/Home';
 import Colleges from "../Layout/Colleges/Colleges";
 import Admission from './../Layout/Admission/Admission';
 import MyAdmission from "../Layout/MyAdmission/MyAdmission";
+import Registration from './../Layout/Registration/Registration';
+
+
 
 export const router = createBrowserRouter([
   {
@@ -25,6 +28,16 @@ export const router = createBrowserRouter([
       {
         path: "/Admission",
         element: <MyAdmission></MyAdmission>,
+      },
+      
+      {
+        path: "/Login",
+        element: <login></login>,
+      },
+      
+      {
+        path: "/Registration",
+        element: <Registration></Registration>,
       },
       
     ],
