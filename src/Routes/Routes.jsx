@@ -26,7 +26,7 @@ export const router = createBrowserRouter([
         element: <Admission></Admission>,
       },
       {
-        path: "/Admission",
+        path: "/MyAdmission",
         element: <MyAdmission></MyAdmission>,
       },
       

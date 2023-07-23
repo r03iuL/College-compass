@@ -3,7 +3,7 @@ import logo from "/logo.png";
 const Footer = () => {
   return (
     <footer>
-      <div className="footer  flex flex-col md:flex-row lg: flex-row justify-evenly items-center p-10 bg-base-200 text-base-content items-center ">
+      <div className="footer flex flex-col md:flex-row lg:flex-row items-center justify-evenly p-10 bg-base-200 text-base-content ">
         <div>
           <img
             src={logo}
@@ -18,7 +18,6 @@ const Footer = () => {
             <br />C O M P A S S .
           </p>
         </div>
-
         <div>
           <span className="footer-title text-xl">Important Links</span>
           <a className="link link-hover text-xl">About us</a>
@@ -26,7 +25,7 @@ const Footer = () => {
           <a className="link link-hover text-xl">Jobs</a>
         </div>
         <div>
-          <span className="footer-title">Social</span>
+          <span className="footer-title text-xl">Social</span>
           <div className="grid grid-flow-col gap-4">
             <a>
               <svg
@@ -64,7 +63,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <footer className="footer footer-center p-4 bg-base-300 text-base-content">
+      <footer className="footer footer-center p-4 bg-slate-300 text-base-content">
         <div>
           <p>Copyright © 2023 - All right reserved by College Compass.</p>
         </div>
