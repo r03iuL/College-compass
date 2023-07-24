@@ -1,0 +1,35 @@
+{
+    "colleges": [
+      {
+        "_id": "1",
+        "name": "Oakdale College",
+        "image": "https://www.elmhurst.edu/wp-content/uploads/2020/04/news-us-news-gates.jpg"
+      },
+      {
+        "_id": "2",
+        "name": "Willowbrook College",
+        "image": "https://www.elmhurst.edu/wp-content/uploads/2020/04/news-us-news-gates.jpg"
+      },
+      {
+        "_id": "3",
+        "name": "Ivywood College",
+        "image": "https://www.elmhurst.edu/wp-content/uploads/2020/04/news-us-news-gates.jpg"
+      },
+      {
+        "_id": "4",
+        "name": "Mapleview College",
+        "image": "https://www.elmhurst.edu/wp-content/uploads/2020/04/news-us-news-gates.jpg"
+      },
+      {
+        "_id": "5",
+        "name": "Brookside College",
+        "image": "https://www.elmhurst.edu/wp-content/uploads/2020/04/news-us-news-gates.jpg"
+      },
+      {
+        "_id": "6",
+        "name": "Cedarhill College",
+        "image": "https://www.elmhurst.edu/wp-content/uploads/2020/04/news-us-news-gates.jpg"
+      }
+    ]
+  }
+  
