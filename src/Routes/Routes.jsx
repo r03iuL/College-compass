@@ -5,6 +5,7 @@ import Colleges from "../Layout/Colleges/Colleges";
 import Admission from './../Layout/Admission/Admission';
 import MyAdmission from "../Layout/MyAdmission/MyAdmission";
 import Registration from './../Layout/Registration/Registration';
+import Error from './../Layout/Error/Error';
 
 
 
@@ -41,5 +42,8 @@ export const router = createBrowserRouter([
       },
       
     ],
-  },
+  },{
+    path:"*",
+    element:<Error></Error>
+  }
 ]);
