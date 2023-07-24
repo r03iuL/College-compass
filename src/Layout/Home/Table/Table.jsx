@@ -1,7 +1,7 @@
 const Table = () => {
   return (
     <div className="overflow-x-auto mx-20">
-        <h1 className="text-4xl font-bold my-5 "> Top Research papers. </h1>
+      <h1 className="text-4xl font-bold my-5 "> Top Research papers. </h1>
       <table className="table">
         {/* head */}
         <thead>
@@ -17,23 +17,26 @@ const Table = () => {
           {/* row 1 */}
           <tr>
             <th>1</th>
+            <td>Implementation of A.I in medical health</td>
             <td>Cy Ganderton</td>
-            <td>Quality Control Specialist</td>
-            <td>Blue</td>
+            <td>Oakdale College </td>
           </tr>
           {/* row 2 */}
           <tr className="hover">
             <th>2</th>
+            <td>
+              Examining the Effects of Social Media Usage on Mental Health and
+              Well-being Among Young Adults
+            </td>
             <td>Hart Hagerty</td>
-            <td>Desktop Support Technician</td>
-            <td>Purple</td>
+            <td>Willowbrook College</td>
           </tr>
           {/* row 3 */}
           <tr>
             <th>3</th>
+            <td>The Evolution of Contemporary Street Art: From Subversion to Mainstream Recognition</td>
             <td>Brice Swyre</td>
-            <td>Tax Accountant</td>
-            <td>Red</td>
+            <td>Brookside College</td>
           </tr>
         </tbody>
       </table>
